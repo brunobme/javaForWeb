@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BBM - Profile</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+	<header>
+	    <div class="content">
+	    	<ul class="contact pull-right">
+	    		<li><a href="https://www.facebook.com/bruno.barbosamarques" target="_blank"><i class="fa fa-facebook"></i></a></li>
+	    		<li><a href="tel:11946756350" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+	    		<li><a href="https://github.com/brunobme" target="_blank"><i class="fa fa-github"></i></a></li>
+	    		<li><a href="https://www.linkedin.com/in/bruno-marques-a27a8990/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+	    	</ul>
+	    </div>
+	</header>
+	<section>
+		<div class="content">
+			<div class="row">
+				<div class="col-md-4 col-sm-3">
+					<div>
+					    <img src="images/cientista-da-computacao-bbm.jpg" alt="Cientista da Computação - Bruno Marques" title="Cientista da Computação - Bruno Marques" class="img-fluid full_width">
+					</div>
+					<div class="side_menu">
+						<ul>
+							<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> <span>Home</span></a></li>
+							<li><a href="profile.html" id="current"><i class="fa fa-user" aria-hidden="true"></i> <span>Profile</span></a></li>
+							<li><a href="disciplinas.html"><i class="fa fa-book" aria-hidden="true"></i> <span>Disciplinas</span></a></li>
+							<li><a href="hobby.html"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <span>Hobbies</span></a></li>
+							<li><a href="links.html"><i class="fa fa-link" aria-hidden="true"></i> <span>Links</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-8 col-sm-9">
+					<h1 class="title">Graduando em Ciência da Computação</h1>
+					<h2 class="subtitle">Bruno Barbosa Marques</h2>
+					<p><i class="fa fa-university" aria-hidden="true"></i> Universidade Federal do ABC</p>
+					<hr>
+					<div class="container">
+						<h3>Objetivo</h3>
+						<p>Evoluir no aprendizado da ciência da computação através de projetos práticos no mercado de trabalho.</p>
+						<h3>Histórico Acadêmico</h3>
+						<p><strong>Ensino Médio integrado ao Técnico de Multimídia</strong> Liceu de Artes e Ofícios de São Paulo: Concluído (2011 ~ 2013)</p>
+						<p><strong>Bacharelado em Ciência da Computação</strong> Universidade Federal do ABC: Cursando(2014~Hoje)</p>
+						<p><strong>Curso de Inglês (avançado) </strong>Skill Idiomas: (2011 ~ 2014)</p>
+						<p><strong>FreeLancer (2016)</strong></p>
+						<h3>Profissional</h3>
+						<ul class="list">
+							<li>Site institucional http://loksafe.com.br (Layout, Responsive, SEO, HTML, CSS, JS, PHP)</li>
+							<li>Site administrável CMS http://bener.com.br/ (CMS, Responsive, SEO) </li>
+							<li>Site institucional www.avisobr.com (Responsive, SEO, HTML, CSS, JS, PHP)</li>
+							<li>Criação de algoritmo em Java para resolução do cubo mágico 3x3 </li>
+							<li>Resolução de problemas de programação em C no SPOJ Brasil http://br.spoj.com/users/marques_bruno/</li>
+						</ul>
+					</div>
+					<hr>
+					<div class="container">
+						<h3>Goals</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<h3>Academic History</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<h3>Professional</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<h3>Graduando em Ciência da Computação</h3>
+		<p><i class="fa fa-university" aria-hidden="true"></i> Universidade Federal do ABC</p>
+		<p>Bruno Barbosa Marques -
+			<script type="text/javascript">
+				var today = new Date();
+				var age = today.getFullYear() - 1996;
+				document.write(age + ' anos');
+			</script>
+		</p>
+	</footer>
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+		$(function(){
+		    $(window).scroll(function(){
+		        if ($(window).scrollTop() > 420){
+		            $('.side_menu').addClass('fixed_menu');
+		        }else{
+		        	$('.side_menu').removeClass('fixed_menu');
+		        }
+		    });
+		});
+	</script>
+</body>
+</html>

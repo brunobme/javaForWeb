@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BBM - Hobby</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+	<header>
+	    <div class="content">
+	    	<ul class="contact pull-right">
+	    		<li><a href="https://www.facebook.com/bruno.barbosamarques" target="_blank"><i class="fa fa-facebook"></i></a></li>
+	    		<li><a href="tel:11946756350" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+	    		<li><a href="https://github.com/brunobme" target="_blank"><i class="fa fa-github"></i></a></li>
+	    		<li><a href="https://www.linkedin.com/in/bruno-marques-a27a8990/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+	    	</ul>
+	    </div>
+	</header>
+	<section>
+		<div class="content">
+			<div class="row">
+				<div class="col-md-4 col-sm-3">
+					<div>
+					    <img src="images/cientista-da-computacao-bbm.jpg" alt="Cientista da Computação - Bruno Marques" title="Cientista da Computação - Bruno Marques" class="img-fluid full_width">
+					</div>
+					<div class="side_menu">
+						<ul>
+							<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> <span>Home</span></a></li>
+							<li><a href="profile.html"><i class="fa fa-user" aria-hidden="true"></i> <span>Profile</span></a></li>
+							<li><a href="disciplinas.html"><i class="fa fa-book" aria-hidden="true"></i> <span>Disciplinas</span></a></li>
+							<li><a href="hobby.html" id="current"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <span>Hobbies</span></a></li>
+							<li><a href="links.html"><i class="fa fa-link" aria-hidden="true"></i> <span>Links</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-8 col-sm-9">
+					<h1 class="title">Graduando em Ciência da Computação</h1>
+					<h2 class="subtitle">Bruno Barbosa Marques</h2>
+					<p><i class="fa fa-university" aria-hidden="true"></i> Universidade Federal do ABC</p>
+					<hr>
+					<div class="container">
+						<h3>Hobbies</h3>
+						<ul>
+							<li>Geral
+								<ol class="list">
+									<li>Video Games</li>
+									<li>Programming</li>
+									<li>Cubo Mágico</li>
+									<li>Quebras Cabeças</li>
+									<li>Assistir Animes</li>
+								</ol>
+							</li><br>
+							<li>Filmes Favoritos
+								<ol class="list">
+									<li>Star Wars</li>
+									<li>Your Name</li>
+									<li>Spider Man 3</li>
+									<li>It's about time</li>
+								</ol>
+							</li><br>
+							<li>Livros
+								<ol class="list">
+									<li>O Código da Inteligência</li>
+									<li>Hacking para Leigos</li>
+									<li>Uma coletânea Front-end</li>
+								</ol>
+							</li><br>
+							<li>Esportes
+								<ol class="list">
+									<li>Basquete</li>
+									<li>Natação</li>
+									<li>Ciclismo</li>
+									<li>Corrida</li>
+								</ol>
+							</li>
+						</ul>
+					</div>
+					<hr>
+					<p><a href="index.html">Voltar</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<h3>Graduando em Ciência da Computação</h3>
+		<p><i class="fa fa-university" aria-hidden="true"></i> Universidade Federal do ABC</p>
+		<p>Bruno Barbosa Marques -
+			<script type="text/javascript">
+				var today = new Date();
+				var age = today.getFullYear() - 1996;
+				document.write(age + ' anos');
+			</script>
+		</p>
+	</footer>
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript">
+		$(function(){
+		    $(window).scroll(function(){
+		        if ($(window).scrollTop() > 420){
+		            $('.side_menu').addClass('fixed_menu');
+		        }else{
+		        	$('.side_menu').removeClass('fixed_menu');
+		        }
+		    });
+		});
+	</script>
+</body>
+</html>
